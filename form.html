@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="F:\autorun.inf\DCIT205 Assignment 6\Validate_form.js" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="validate_form.js"></script>
+    
+</head>
+
+<style>
+
+table, th, td {
+
+border:1px solid black;
+
+}
+
+</style>
+
+<body>
+    
+
+<form>
+
+<fieldset style="width:40%">
+
+<legend>Personal Information</legend>
+
+<table>
+
+<tr>
+
+<td>First Name</td>
+
+<td><input type="text"></td>
+
+<td>gender</td>
+
+<td><input type="radio">Female <input type="radio">Male</td>
+
+</tr>
+
+<tr>
+
+<td>Last Name</td>
+
+<td><input type="text"></td>
+
+<td>Nationality</td>
+
+<td><select name="country" id="country">
+
+<option value="ghana">Ghana</option>
+
+<option value="usa">USA</option>
+
+<option value="india">India</option>
+
+<option value="nepal">Nepal</option>
+
+<option value="togo">Togo</option>
+
+<option value="nigeria">Nigeria</option>
+
+
+</select></td>
+
+</tr>
+
+<tr>
+
+<td >Address</td>
+
+<td colspan="3"><textarea rows="4" cols="30">
+
+</textarea></td>
+
+</tr>
+
+</table>
+
+</fieldset>
+
+<fieldset style="width: 40%;">
+
+<legend>Medical history</legend>
+
+<input type="checkbox">Smallpox
+
+<input type="checkbox">Mumps
+
+<input type="checkbox">Dizziness
+
+<input type="checkbox">Sneezing
+
+</fieldset>
+
+<fieldset style="width: 50%;">
+
+<legend>Current Medication</legend>
+
+Are you currently taking any medication ? <input type="radio">Yes <input type="radio">No<br>
+
+If you are currently talking medication,please indicate it in the space below:<br>
+
+<textarea rows="8" cols="90">
+
+</textarea>
+
+</fieldset>
+
+<input type="submit">
+
+<input type="reset">
+
+
+</form>
+
+</body>
